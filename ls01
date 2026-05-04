@@ -1,0 +1,7 @@
+Giai thich : 
+
+ Dư thừa dữ liệu (Data Redundancy): Như ví dụ trong bài, nếu tác giả Nguyễn Nhật Ánh có 100 cuốn sách, bạn sẽ phải nhập tên, năm sinh và tiểu sử của ông ấy đúng 100 lần. Điều này làm lãng phí không gian lưu trữ đáng kể. 
+
+Khó khăn trong cập nhật (Update Anomalies): Nếu tiểu sử của tác giả có thay đổi, bạn buộc phải tìm và sửa ở tất cả 100 dòng dữ liệu đó. Chỉ cần quên một dòng, dữ liệu sẽ bị mất tính nhất quán (người dùng sẽ thấy các thông tin khác nhau về cùng một tác giả). 
+
+Hạn chế tính mở rộng: Thiết kế này khiến việc tra cứu "Danh sách tất cả tác giả" trở nên cực kỳ khó khăn và chậm chạp vì hệ thống phải quét qua hàng ngàn cuốn sách để lọc ra các tên tác giả không trùng lặp. 
